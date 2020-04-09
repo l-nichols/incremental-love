@@ -1,0 +1,83 @@
+:root {
+	--main-bg-color: #dea4eb;
+	--main-text-color: #4d4a4a;
+} 
+
+
+.container, body, .modal-content {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#marryMeHeader {
+	margin: 0 auto;
+}
+
+.modal-dialog {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+body {
+	margin-top: 20px;
+}
+
+.modal-footer button {
+	margin: 0 auto;
+}
+
+.progress, .progress-bar {
+	height: 40px;
+	transition: width 0s;
+}
+
+.progress {
+	margin-bottom: 10px;
+}
+
+.progress-bar, btn-dark {
+	background-color: var(--main-text-color);
+}
+
+.mb-4 {
+	margin-top: 5px;
+	height: 300px;
+	border-radius: 4px;
+	overflow: auto;
+	max-width: 30%;
+	margin: 1%;
+}
+
+.flip-card {
+  background-color: transparent; 
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 8px 10px 0 rgba(90,90,90,0.2)
+}
+
+.flip-card.flipped .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 95%;
+	height: 95%;
+	backface-visibility: hidden;
+}
+
+.flip-card-back {
+	transform: rotateY(180deg);
+}
+
+#inventory {
+	font-size: 1.5em;
+}
