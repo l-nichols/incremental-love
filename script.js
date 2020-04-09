@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var prevTimeStamp = null;
 	var alertShown = false;
 	var totalTimePlayed = 0;
-	var love = 10000000;
+	var love = 0;
 
 	// Timers
 	var chat = {on: false, timerLeft: 0, id: "#chat", simpleID: "chat", quantity: 1, basecost: 15, duration: 1, basevalue: 1, value: 1, description: "Chat", automated: false};
