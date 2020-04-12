@@ -72,6 +72,7 @@ body {
 	width: 95%;
 	height: 95%;
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden; /* Safari */
 }
 
 .flip-card-back {
